@@ -139,7 +139,7 @@ img {
     color: var(--secondary-color);
     text-decoration: none;
     font-weight: 500;
-    line-height: 1.14px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     padding: 32px 0;
     display: block;
@@ -196,7 +196,6 @@ img {
 .features {
 }
 .features-box {
-    flex-direction: column;
 }
 .features-list {
 }
@@ -251,7 +250,6 @@ img {
 }
 
 .team-box {
-    flex-direction: column;
 }
 .team-title {
     font-weight: 700;
@@ -369,9 +367,8 @@ img {
 }
 
 .portfolio-card-content {
-    border-style: none solid solid solid;
-    border-width: 1px;
-    border-color: var(--portfolio-border-color);
+    border: 1px solid var(--portfolio-border-color);
+    border-top: none;
     padding: 20px 24px;
 }
 
